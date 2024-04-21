@@ -1,20 +1,17 @@
 import pyodbc
 
-class ConexionBD:
-    @staticmethod
-    def obtener_conexion():
-        try:
-            conexion = pyodbc.connect(
-                "Driver={ODBC Driver 17 for SQL Server};"
-                "Server=tcp:sistemasoperativosupc.database.windows.net,1433;"
-                "Database=SO-Project;"
-                "UID=KarimS21;"
-                "PWD=SOupc2024;"
-                "Encrypt=yes;"
-                "TrustServerCertificate=no;"
-                "Connection Timeout=30;"
-            )
-            return conexion
-        except Exception as e:
-            print("Error connecting to SQL Server.")
-            print(e)
+
+                server   = 'sistemasoperativosupc.database.windows.net'
+                database = 'SO-Project'
+                username = 'KarimS21'
+                password = 'SOupc2024'
+            
+           
+connection_string = f'DRIVER=((SQL Server)}; SERVER={server} ;DATABASE={database}; UID={username}; PWD={password}'
+
+def connect():
+    try:
+        conn = pyodbc.connect(connection_string)
+        return conn
+    except Exception as e:
+        print(f"No se pudo conectar a la base de datos: {e}")
