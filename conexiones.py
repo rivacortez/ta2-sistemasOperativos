@@ -1,8 +1,8 @@
 from flask import Flask, redirect, url_for, render_template, request, session, Response
-from flask_mysqldb import MySQL, MySQLdb 
+
 import conexion
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='Templates')
 app.secret_key = "hello"
 
 def validar_datos(nombre, apellido, ubicacion, email, numero, password):
@@ -25,7 +25,7 @@ def home():
         
         # Validar los datos
         if validar_datos(nombre, apellido, ubicacion, email, numero, password):
-            conn = conexion.ConexionBD.obtener_conexion()
+            conn = conexion.connect()
             cursor = conn.cursor()
             sql_insert = "INSERT INTO usuario (nombre, apellido, ubicacion, email, numero, password) VALUES (?, ?, ?, ?, ?, ?)"
             cursor.execute(sql_insert, (nombre, apellido, ubicacion, email, numero, password))
@@ -33,11 +33,14 @@ def home():
             session["nombre"] = nombre.lower()
             cursor.close()
             conn.close()
-            return render_template("index.html")
+            return redirect("/templates/tienda.html")
+
         else:
             mensaje_error = "Todos los campos son obligatorios. Por favor, completa toda la información."
 
     return render_template("index.html", error=mensaje_error)
 
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)

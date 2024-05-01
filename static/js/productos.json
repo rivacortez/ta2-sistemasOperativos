@@ -1,0 +1,182 @@
+[
+    {
+        "id": "figuras-01",
+        "titulo": "Sasuke",
+        "imagen": "/static/images/muñeco/sasuke.png",
+        "categoria": {
+            "nombre": "figuras",
+            "id": "figuras"
+        },
+        "precio": 58
+    },
+    {
+        "id": "figuras-02",
+        "titulo": "Godzilla",
+        "imagen": "/static/images/muñeco/godzilla.png",
+        "categoria": {
+            "nombre": "figuras",
+            "id": "figuras"
+        },
+        "precio": 170
+    },
+    {
+        "id": "figuras-03",
+        "titulo": "Kamen Rider",
+        "imagen": "/static/images/muñeco/Kamen.png",
+        "categoria": {
+            "nombre": "figuras",
+            "id": "figuras"
+        },
+        "precio": 68
+    },
+    {
+        "id": "figuras-04",
+        "titulo": "Optimus",
+        "imagen": "/static/images/muñeco/optimus.png",
+        "categoria": {
+            "nombre": "figuras",
+            "id": "figuras"
+        },
+        "precio": 180
+    },
+    {
+        "id": "figuras-05",
+        "titulo": "Ultraman",
+        "imagen": "/static/images/muñeco/ultrama.png",
+        "categoria": {
+            "nombre": "figuras",
+            "id": "figuras"
+        },
+        "precio": 48
+    },
+    {
+        "id": "relojes-01",
+        "titulo": "K18YG oro macizo Cartier ",
+        "imagen": "/static/images//relojes/reloj1.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojesa-02",
+        "titulo": "動作確認済み】セイ",
+        "imagen": "/static/images//relojes/reloj2.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojes-03",
+        "titulo": "1965 ROLEX OYSTER",
+        "imagen": "/static/images//relojes/reloj3.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojes-04",
+        "titulo": "SEIKO KINGSEIKO",
+        "imagen": "/static/images//relojes/reloj4.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojes-05",
+        "titulo": "Omega Seamaster MEISTER",
+        "imagen": "/static/images//relojes/reloj5.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojes-06",
+        "titulo": "SEIKO 5 SUPERIOR 7S36-00N0",
+        "imagen": "/static/images//relojes/reloj6.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojes-07",
+        "titulo": "HUBLOT GENEVE ",
+        "imagen": "/static/images//relojes/reloj7.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "relojes-08",
+        "titulo": "Grand Seiko 5646-7010 56GS",
+        "imagen": "/static/images//relojes/reloj9.png",
+        "categoria": {
+            "nombre": "relojes",
+            "id": "relojes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "manga-01",
+        "titulo": "terminador 3 cómics",
+        "imagen": "/static/images/manga/manga1.png",
+        "categoria": {
+            "nombre": "manga",
+            "id": "manga"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "manga-02",
+        "titulo": "Semanal Shonen Sunday número 21",
+        "imagen": "/static/images/manga/manga2.png",
+        "categoria": {
+            "nombre": "manga",
+            "id": "manga"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "manga-03",
+        "titulo": "BORUTO 漫画",
+        "imagen": "/static/images/manga/manga3.png",
+        "categoria": {
+            "nombre": "manga",
+            "id": "manga"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "manga-04",
+        "titulo": "Dragon Ball Z la Película",
+        "imagen": "/static/images/manga/manga4.png",
+        "categoria": {
+            "nombre": "manga",
+            "id": "manga"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "manga-05",
+        "titulo": "Infinite Stratos",
+        "imagen": "/static/images/manga/manga5.png",
+        "categoria": {
+            "nombre": "manga",
+            "id": "manga"
+        },
+        "precio": 1000
+    }
+]
