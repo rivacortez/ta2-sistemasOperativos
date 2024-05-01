@@ -274,6 +274,14 @@ main {
     border-bottom-right-radius: 1rem;
 }
 
+.carrito-producto-titulo,
+.carrito-producto-cantidad,
+.carrito-producto-precio,
+.carrito-producto-subtotal {
+    width: 1500%;
+}
+
+
 .header-mobile {
     display: none;
 }
